@@ -2,10 +2,15 @@
   "name": "simple-boilerplate",
   "description": "Simple boilerplate for an angular web application",
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kagius/simplepart.git"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-jasmine": "^0.8.2",
     "grunt-contrib-jshint": "^0.11.0",
+    "grunt-ngdocs": "^0.2.7",
     "grunt-template-jasmine-istanbul": "^0.3.3",
     "jasmine": "^2.2.1",
     "load-grunt-config": "^0.16.0"
