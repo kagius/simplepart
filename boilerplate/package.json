@@ -1,5 +1,9 @@
 {
   "name": "simple-boilerplate",
   "description": "Simple boilerplate for an angular web application",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "load-grunt-config": "^0.16.0"
+  }
 }
