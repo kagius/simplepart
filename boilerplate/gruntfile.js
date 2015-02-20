@@ -5,5 +5,5 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.registerTask('default', ['jshint', 'jasmine', 'ngdocs']);
+    grunt.registerTask('default', ['compass', 'jshint', 'jasmine', 'ngdocs']);
 };

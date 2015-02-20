@@ -2,3 +2,5 @@ node_modules/
 _SpecRunner.html
 reports/
 docs/
+dist/
+.sass-cache/
