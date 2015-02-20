@@ -1,5 +1,9 @@
 module.exports = function (grunt) {    
-    require('load-grunt-config')(grunt);
+    require('load-grunt-config')(grunt, {
+        loadGruntTasks: {
+            pattern: ['grunt-*', '!grunt-template-jasmine-istanbul']
+        }
+    });
 
-    grunt.registerTask('default', ['jshint']);
+    grunt.registerTask('default', ['jshint', 'jasmine']);
 };
